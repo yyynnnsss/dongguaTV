@@ -4,7 +4,7 @@ const url = require('url');
 
 // 配置
 const PORT = process.env.PORT || 8080;
-const ACCESS_PASSWORD = process.env.PROXY_PASSWORD || ''; // 可选：设置访问密码
+//const ACCESS_PASSWORD = process.env.PROXY_PASSWORD || ''; // 可选：设置访问密码
 
 // CORS 响应头
 const CORS_HEADERS = {
